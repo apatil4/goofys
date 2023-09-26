@@ -355,6 +355,7 @@ func (s *S3Backend) getRequestId(r *request.Request) string {
 }
 
 func (s *S3Backend) HeadBlob(param *HeadBlobInput) (*HeadBlobOutput, error) {
+	fmt.Print("Bucket - ", &s.bucket)
 	head := s3.HeadObjectInput{Bucket: &s.bucket,
 		Key: &param.Key,
 	}

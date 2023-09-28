@@ -36,4 +36,4 @@ require (
 	gopkg.in/ini.v1 v1.51.0
 )
 
-replace github.com/kahing/goofys => github.com/apatil4/goofys latest
+replace github.com/apatil4/goofys => github.com/apatil4/goofys latest
